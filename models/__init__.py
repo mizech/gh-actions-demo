@@ -1,0 +1,1 @@
+print("The __init__ has become called.")
