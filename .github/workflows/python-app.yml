@@ -6,5 +6,7 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello, World!"
+      - name: Mult line-string
+        run: echo "Test1"
       - name: Print goodbye
         run: echo "Done! Goodbye."
