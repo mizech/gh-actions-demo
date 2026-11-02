@@ -6,6 +6,11 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello, World!"
+      - uses: actions/checkout@v3
+      - name: Set up Python
+        uses: actions/setup-python@v5
+      - name: Run Python-script
+        run: python main.py
       - name: Mult line-string
         run: |
          echo "Test1"

@@ -1,1 +1,1 @@
-print("The __init__ has become called.")
+print("The __init__-file has become called.")
