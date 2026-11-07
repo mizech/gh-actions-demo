@@ -1,10 +1,9 @@
-from models.person import Person
+from csv_util import CsvUtil
 
 def exec():
-    tmeyer = Person(first_name="Thorsten", last_name="Meyer", 
-                email="thorsten.meyer@gmx.com", phone="012345",
-                projects=["Alpha", "Beta", "Gamma"])
-    print(tmeyer)
+    words = ["apple", None, "banana", "kiwi"]
+    result = CsvUtil.to_csv_line(values=words)
+    print(result)
 
 if __name__ == "__main__":
     exec()
