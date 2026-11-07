@@ -17,3 +17,5 @@ jobs:
          echo "Test2"
       - name: Print goodbye
         run: echo "Done! Goodbye."
+      - name: Using context
+        run: echo "GitHub ${{toJSON(github)}}"
